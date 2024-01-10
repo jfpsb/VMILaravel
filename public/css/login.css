@@ -1,0 +1,35 @@
+.login {
+    border: 1px solid gray;
+    border-radius: 8px;
+    max-width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    margin-bottom: 5px;
+}
+
+.login>label {
+    display: block;
+    margin: 10px auto;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.login>label>input {
+    width: calc(100% - 10px);
+    font-size: 18px;
+}
+
+#botao-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#botao-login {
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
